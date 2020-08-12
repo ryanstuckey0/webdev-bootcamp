@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+#block-not-centered {
+    width: 50%;
+    background-color: bisque;
+}
+
+#block-centered {
+    width: 50%;
+    background-color: lightcoral;
+    margin: 0 auto 0 auto;
+    margin: 0 auto;
+}

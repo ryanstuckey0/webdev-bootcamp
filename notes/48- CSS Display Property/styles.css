@@ -1,0 +1,31 @@
+#display-example {
+    background-color: violet;
+}
+
+#block-example {
+    background-color: red;
+    display: block;
+}
+
+#inline-example {
+    background-color: green;
+    display: inline;
+}
+
+#inline-block-example {
+    background-color: aqua;
+    display: inline-block;
+}
+
+#none-example {
+    background-color: brown;
+    display: none;
+}
+
+span {
+    background-color: burlywood;
+}
+
+#invisible-element {
+    visibility: hidden;
+}

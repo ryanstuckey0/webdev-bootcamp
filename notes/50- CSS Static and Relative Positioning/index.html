@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h3>Rules for how HTML is displayed on webpage without CSS</h3>
+    <ol>
+        <li>Content is everything-- Inline elements only take up as much space as the content. Block element height is
+            determined by content height.</li>
+        <li>Order comes from the code-- Content gets rendered in the order that the code is written.</li>
+        <li>Children sit on top of parents-- In 3D space, children will be "closed to the viewer" than their parents.
+            This determines which elements will be displayed in front of the others.</li>
+    </ol>
+    <h3>CSS Position Property</h3>
+    <h4>Static: All HTML elements are static by default, which means go along with default HTML flow.</h4>
+    <h4>Relative: Position an HTML element relative to how it would've been positioned in static.</h4>
+    <p>We can use the left, right, top, and bottom properties to move the element around.</p>
+    <p>Moving an element with the relative property does not affect any element on screen.</p> 
+    <p>The other elements act like it is still in it's original position.</p>
+    <div id="red-square"></div>
+    <div id="blue-square"></div>
+    <div id="yellow-square"></div>
+    <p>As you can see, this paragraph is still after where the squares would be.</p>
+</body>
+
+</html>
